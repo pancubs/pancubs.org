@@ -1,0 +1,64 @@
+html {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: url("../images/banner.jpg");
+  background-size: cover;
+}
+
+.section {
+  display: block;
+}
+
+.section-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1380px;
+}
+
+.section-hero {
+  text-align: center;
+  background-color: #fafafa20;
+  margin-top: 0;
+  padding-bottom: 44px;
+}
+
+.product-eyebrow {
+  color: #111;
+  padding-top: 76px;
+}
+
+.product-headline {
+  margin-top: 10px;
+}
+
+.typography-callout {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: .004em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.typography-product-headline-elevated {
+  font-size: 64px;
+  line-height: 1.0625;
+  font-weight: 600;
+  letter-spacing: -.009em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.visuallyhidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+}
